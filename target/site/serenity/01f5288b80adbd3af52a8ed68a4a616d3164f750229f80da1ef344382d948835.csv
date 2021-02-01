@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Datatable example","As a user, I want to view all the categories","SUCCESS","2021-01-19T14:25:00.81934-05:00[America/New_York]","0.0","18.33"
+"Purchase pets from the store","As user, I want to view the Pet Types","SUCCESS","2021-01-19T14:26:10.6917753-05:00[America/New_York]","0.0","8.4"
+"User Registration to the pet-store application","As a shopper, I need to register myself as a new user to the pet-store application","SUCCESS","2021-01-19T14:26:19.0974253-05:00[America/New_York]","0.0","14.58"

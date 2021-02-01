@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jpetstore.cucumber.UserRegistrationRunner" time="69.534" tests="5" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.9+7-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\pentahoqa\eclipse-workspace\j-petstore-bdd\j-petstore-bdd"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\pentahoqa\eclipse-workspace\j-petstore-bdd\j-petstore-bdd"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.9+7-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\PENTAH~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\pentahoqa\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8418450422404719647.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.9/bin/server;C:/Program Files/Java/jdk-11.0.9/bin;C:\Program Files\Java\jdk-11.0.9\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Users\pentahoqa\Downloads\BrowserDrivers;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Ruby24-x64\bin;C:\Users\pentahoqa\AppData\Local\Microsoft\WindowsApps;;C:\Users\pentahoqa\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\pentahoqa"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="pentahoqa"/>
+    <property name="java.class.path" value="C:\Users\pentahoqa\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean verify serenity:aggregate"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.9"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.9"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\pentahoqa\eclipse-workspace\j-petstore-bdd\j-petstore-bdd\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="As a user, I want to view all the categories" classname="Datatable example" time="19.35"/>
+  <testcase name="EMPTY_NAME" classname="Purchase pets from the store" time="26.076">
+    <error message="Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@3987a1e8 (tried for 15 second(s) with 50 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-7K9MUTS&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@3987a1e8 (tried for 15 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7K9MUTS', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: unknown
+	at net.thucydides.core.scheduling.ThucydidesFluentWait.timeoutException(ThucydidesFluentWait.java:153)
+	at net.thucydides.core.scheduling.ThucydidesFluentWait.until(ThucydidesFluentWait.java:83)
+	at net.serenitybdd.core.pages.RenderedPageObjectView.waitForAnyTextToAppear(RenderedPageObjectView.java:360)
+	at net.serenitybdd.core.pages.PageObject.waitForAnyTextToAppear(PageObject.java:454)
+	at com.jpetstore.pages.OrdersPage.enterPaymentAndBillingDetails(OrdersPage.java:86)
+	at com.jpetstore.cucumber.steps.serenity.PetStoreSteps.enterPaymentAndBillingDetails(PetStoreSteps.java:275)
+	at com.jpetstore.cucumber.steps.serenity.PetStoreSteps$$EnhancerByCGLIB$$9963d758.CGLIB$enterPaymentAndBillingDetails$19(<generated>)
+	at com.jpetstore.cucumber.steps.serenity.PetStoreSteps$$EnhancerByCGLIB$$9963d758$$FastClassByCGLIB$$4dc150fd.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:461)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:446)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:421)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:176)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:163)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)
+	at com.jpetstore.cucumber.steps.serenity.PetStoreSteps$$EnhancerByCGLIB$$9963d758.enterPaymentAndBillingDetails(<generated>)
+	at com.jpetstore.cucumber.steps.UserRegistrationSteps.i_enter_my_payment_details_(UserRegistrationSteps.java:149)
+	at ✽.I enter my payment details Visa,9999999999999999,04/2026,John,Doe,33,Wdrive,Mobile,AL,06340,USA(src/test/resources/features/orders.feature:14)
+]]></error>
+    <system-err><![CDATA[22786 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: 
+-------------------------------------------------------------------(purchase-pets-from-the-store;)
+Jan 19, 2021 2:25:20 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+Jan 19, 2021 2:25:20 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+23193 [main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+23194 [main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: org.openqa.selenium.firefox..., headless: false, loggingPrefs: org.openqa.selenium.logging..., marionette: true, moz:firefoxOptions: {}, platform: ANY, version: }
+1611084321346	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PENTAH~1\\AppData\\Local\\Temp\\rust_mozprofile.i3VFYakVDaCK"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1611084324085	Marionette	INFO	Listening on port 54978
+1611084324513	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jan 19, 2021 2:25:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1611084345283	Marionette	INFO	Stopped listening on port 54978
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+48716 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: 
+---------------------------------------------------------------------
+48853 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Entering purchase information & placing order
+48853 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@3987a1e8 (tried for 15 second(s) with 50 milliseconds interval)Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-7K9MUTS', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'Driver info: driver.version: unknownBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-7K9MUTS', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'Driver info: driver.version: unknown
+]]></system-err>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="Purchase pets from the store" time="24.235">
+    <error message="Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@7bc3c59f (tried for 15 second(s) with 50 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-7K9MUTS&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@7bc3c59f (tried for 15 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7K9MUTS', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: unknown
+	at net.thucydides.core.scheduling.ThucydidesFluentWait.timeoutException(ThucydidesFluentWait.java:153)
+	at net.thucydides.core.scheduling.ThucydidesFluentWait.until(ThucydidesFluentWait.java:83)
+	at net.serenitybdd.core.pages.RenderedPageObjectView.waitForAnyTextToAppear(RenderedPageObjectView.java:360)
+	at net.serenitybdd.core.pages.PageObject.waitForAnyTextToAppear(PageObject.java:454)
+	at com.jpetstore.pages.OrdersPage.enterPaymentAndBillingDetails(OrdersPage.java:86)
+	at com.jpetstore.cucumber.steps.serenity.PetStoreSteps.enterPaymentAndBillingDetails(PetStoreSteps.java:275)
+	at com.jpetstore.cucumber.steps.serenity.PetStoreSteps$$EnhancerByCGLIB$$9963d758.CGLIB$enterPaymentAndBillingDetails$19(<generated>)
+	at com.jpetstore.cucumber.steps.serenity.PetStoreSteps$$EnhancerByCGLIB$$9963d758$$FastClassByCGLIB$$4dc150fd.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:461)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:446)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:421)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:176)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:163)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)
+	at com.jpetstore.cucumber.steps.serenity.PetStoreSteps$$EnhancerByCGLIB$$9963d758.enterPaymentAndBillingDetails(<generated>)
+	at com.jpetstore.cucumber.steps.UserRegistrationSteps.i_enter_my_payment_details_(UserRegistrationSteps.java:149)
+	at ✽.I enter my payment details Visa,9999999999999999,04/2026,John,Doe,33,Wdrive,Mobile,AL,06340,USA(src/test/resources/features/orders.feature:14)
+]]></error>
+    <system-err><![CDATA[Jan 19, 2021 2:25:46 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+Jan 19, 2021 2:25:46 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+49238 [main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+49239 [main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: org.openqa.selenium.firefox..., headless: false, loggingPrefs: org.openqa.selenium.logging..., marionette: true, moz:firefoxOptions: {}, platform: ANY, version: }
+1611084347394	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PENTAH~1\\AppData\\Local\\Temp\\rust_mozprofile.UPo9Rp1UZuZH"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1611084350038	Marionette	INFO	Listening on port 55037
+1611084350551	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jan 19, 2021 2:25:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1611084369740	Marionette	INFO	Stopped listening on port 55037
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+  </testcase>
+  <testcase name="As user, I want to view the Pet Types" classname="Purchase pets from the store" time="8.392"/>
+  <testcase name="As a shopper, I need to register myself as a new user to the pet-store application" classname="User Registration to the pet-store application" time="15.716"/>
+</testsuite>

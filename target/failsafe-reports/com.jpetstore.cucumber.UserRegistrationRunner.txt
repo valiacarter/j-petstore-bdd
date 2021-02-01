@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: com.jpetstore.cucumber.UserRegistrationRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 99.102 sec <<< FAILURE! - in com.jpetstore.cucumber.UserRegistrationRunner
+EMPTY_NAME(Purchase pets from the store)  Time elapsed: 26.076 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@3987a1e8 (tried for 15 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7K9MUTS', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: unknown
+	at net.thucydides.core.scheduling.ThucydidesFluentWait.timeoutException(ThucydidesFluentWait.java:153)
+	at net.thucydides.core.scheduling.ThucydidesFluentWait.until(ThucydidesFluentWait.java:83)
+	at net.serenitybdd.core.pages.RenderedPageObjectView.waitForAnyTextToAppear(RenderedPageObjectView.java:360)
+	at net.serenitybdd.core.pages.PageObject.waitForAnyTextToAppear(PageObject.java:454)
+	at com.jpetstore.pages.OrdersPage.enterPaymentAndBillingDetails(OrdersPage.java:86)
+	at com.jpetstore.cucumber.steps.serenity.PetStoreSteps.enterPaymentAndBillingDetails(PetStoreSteps.java:275)
+	at com.jpetstore.cucumber.steps.serenity.PetStoreSteps$$EnhancerByCGLIB$$9963d758.CGLIB$enterPaymentAndBillingDetails$19(<generated>)
+	at com.jpetstore.cucumber.steps.serenity.PetStoreSteps$$EnhancerByCGLIB$$9963d758$$FastClassByCGLIB$$4dc150fd.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:461)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:446)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:421)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:176)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:163)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)
+	at com.jpetstore.cucumber.steps.serenity.PetStoreSteps$$EnhancerByCGLIB$$9963d758.enterPaymentAndBillingDetails(<generated>)
+	at com.jpetstore.cucumber.steps.UserRegistrationSteps.i_enter_my_payment_details_(UserRegistrationSteps.java:149)
+	at ?.I enter my payment details Visa,9999999999999999,04/2026,John,Doe,33,Wdrive,Mobile,AL,06340,USA(src/test/resources/features/orders.feature:14)
+
+EMPTY_NAME(Purchase pets from the store)  Time elapsed: 24.235 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@7bc3c59f (tried for 15 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7K9MUTS', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: unknown
+	at net.thucydides.core.scheduling.ThucydidesFluentWait.timeoutException(ThucydidesFluentWait.java:153)
+	at net.thucydides.core.scheduling.ThucydidesFluentWait.until(ThucydidesFluentWait.java:83)
+	at net.serenitybdd.core.pages.RenderedPageObjectView.waitForAnyTextToAppear(RenderedPageObjectView.java:360)
+	at net.serenitybdd.core.pages.PageObject.waitForAnyTextToAppear(PageObject.java:454)
+	at com.jpetstore.pages.OrdersPage.enterPaymentAndBillingDetails(OrdersPage.java:86)
+	at com.jpetstore.cucumber.steps.serenity.PetStoreSteps.enterPaymentAndBillingDetails(PetStoreSteps.java:275)
+	at com.jpetstore.cucumber.steps.serenity.PetStoreSteps$$EnhancerByCGLIB$$9963d758.CGLIB$enterPaymentAndBillingDetails$19(<generated>)
+	at com.jpetstore.cucumber.steps.serenity.PetStoreSteps$$EnhancerByCGLIB$$9963d758$$FastClassByCGLIB$$4dc150fd.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:461)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:446)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:421)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:176)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:163)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)
+	at com.jpetstore.cucumber.steps.serenity.PetStoreSteps$$EnhancerByCGLIB$$9963d758.enterPaymentAndBillingDetails(<generated>)
+	at com.jpetstore.cucumber.steps.UserRegistrationSteps.i_enter_my_payment_details_(UserRegistrationSteps.java:149)
+	at ?.I enter my payment details Visa,9999999999999999,04/2026,John,Doe,33,Wdrive,Mobile,AL,06340,USA(src/test/resources/features/orders.feature:14)
+

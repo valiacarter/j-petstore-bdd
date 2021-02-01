@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="Purchase pets from the store" skipped="0" tests="3" time="34.33" timestamp="2021-01-19 02:25:20"><testcase name=""><error message="Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@3987a1e8 (tried for 15 second(s) with 50 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-7K9MUTS', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: driver.version: unknown&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-7K9MUTS', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@3987a1e8 (tried for 15 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7K9MUTS', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7K9MUTS', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@3987a1e8 (tried for 15 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7K9MUTS', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7K9MUTS', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: unknown&#13;
+com.jpetstore.pages.OrdersPage.enterPaymentAndBillingDetails(OrdersPage.java:86)&#13;
+com.jpetstore.cucumber.steps.serenity.PetStoreSteps.enterPaymentAndBillingDetails(PetStoreSteps.java:275)&#13;
+com.jpetstore.cucumber.steps.UserRegistrationSteps.i_enter_my_payment_details_(UserRegistrationSteps.java:149)&#13;
+✽.I enter my payment details Visa,9999999999999999,04/2026,John,Doe,33,Wdrive,Mobile,AL,06340,USA(src/test/resources/features/orders.feature:14)&#13;
+</system-err></testcase><testcase name="As user, I want to view the Pet Types"/></testsuite>
